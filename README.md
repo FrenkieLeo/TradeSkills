@@ -14,3 +14,15 @@ Default storage rule for future work:
 - Keep generated outputs in this repository when they are meant to be reused across devices.
 
 The local auto-sync watcher monitors these folders and pushes changes to GitHub.
+
+To restore skills on a new device, run:
+
+```bash
+bash scripts/install-skills-from-repo.sh
+```
+
+To keep macOS/Linux syncing continuously, run:
+
+```bash
+bash scripts/auto-sync.sh
+```
