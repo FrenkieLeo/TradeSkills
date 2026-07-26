@@ -33,7 +33,7 @@
 
 每个批次默认 5 家；执行顺序与 L1 相同。模块：`stock-eval` → `financial-report-analyst/10k-digest` → `competitor-analysis` → `management-deep-dive` → 行业适配估值 → `bear-case` → `result-validator`。
 
-- [ ] NDX L2-01：AAPL, ABNB, ADBE, ADI, ADP
+- [x] NDX L2-01：AAPL, ABNB, ADBE, ADI, ADP
 - [ ] NDX L2-02：ADSK, AEP, ALNY, AMAT, AMD
 - [ ] NDX L2-03：AMGN, AMZN, APP, ARM, ASML
 - [ ] NDX L2-04：AVGO, AXON, BKNG, BKR, CCEP
