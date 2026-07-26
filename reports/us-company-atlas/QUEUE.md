@@ -1,8 +1,15 @@
 # US Company Atlas 执行队列
 
 > 最后更新：2026-07-26  
-> 执行模式：连续队列；无需用户逐批确认  
-> 原则：不使用 `quality-screen` 淘汰公司；全部公司最终达到 L2 标准深研
+> 执行模式：低额度暂停；仅维护队列与已有报告  
+> 原则：不使用 `quality-screen` 淘汰公司；恢复前不继续批量深研
+
+## 低额度暂停说明
+
+- 当前已暂停每小时自动续跑任务，避免继续消耗额度。
+- 当前恢复点：Nasdaq-100 L2-04 已完成；下一批为 NDX L2-05。
+- 低额度模式下只做整理、索引、摘要、队列维护，不新增批量深研。
+- 恢复深研前请先查看 [LOW_QUOTA_PLAN.md](LOW_QUOTA_PLAN.md)。
 
 ## 状态说明
 
@@ -14,7 +21,7 @@
 ## 0. 项目底座
 
 - [x] 创建项目说明、数据规范与 skill 路由
-- [x] 建立自动续跑任务
+- [x] 建立自动续跑任务（2026-07-26 已暂停，见 LOW_QUOTA_PLAN.md）
 - [x] 建立 Nasdaq-100 当前成分股快照
 - [~] 建立数据交叉验证管线：Yahoo 接口受限，已启用市场行情工具 + StockAnalysis；SEC/公司 IR 将在 L2 补齐
 
@@ -37,7 +44,7 @@
 - [x] NDX L2-02：ADSK, AEP, ALNY, AMAT, AMD
 - [x] NDX L2-03：AMGN, AMZN, APP, ARM, ASML
 - [x] NDX L2-04：AVGO, AXON, BKNG, BKR, CCEP
-- [ ] NDX L2-05：CDNS, CEG, CMCSA, COST, CPRT
+- [!] NDX L2-05：CDNS, CEG, CMCSA, COST, CPRT（低额度暂停；等待用户明确恢复）
 - [ ] NDX L2-06：CRWD, CSCO, CSX, CTAS, DASH
 - [ ] NDX L2-07：DDOG, DXCM, EA, EXC, FANG
 - [ ] NDX L2-08：FAST, FER, FTNT, GEHC, GILD
