@@ -1,0 +1,166 @@
+version: 1
+name: 基本面分析
+purpose: 公司基本面研究的 skills 编排与质量控制
+
+stages:
+  - id: data_cross_validation
+    name: 数据与交叉验证
+    objective: 建立可信的财务、市场和持仓数据底座
+    skills:
+      - financial-data
+      - yfinance-data
+      - funda-data
+      - fintel-data
+    required_outputs:
+      - 标准化三表数据
+      - 市值与估值倍数
+      - 数据来源索引
+      - 口径差异说明
+    validation_rules:
+      - 关键指标至少两个来源交叉验证
+      - 标注财报期、TTM、币种和会计口径
+
+  - id: business_fundamentals
+    name: 商业与基本面
+    objective: 拆解公司赚钱方式、经营质量和财务趋势
+    skills:
+      - stock-eval
+      - fundamental-analysis
+      - financial-report-analyst
+      - 10k-digest
+    required_outputs:
+      - 商业模式画布
+      - 财务质量分析
+      - 关键经营指标
+      - 风险因素摘要
+
+  - id: industry_competition
+    name: 行业与竞争
+    objective: 判断行业结构、市场空间和竞争优势
+    skills:
+      - industry-map
+      - industry-research
+      - industry-funnel
+      - competitor-analysis
+    required_outputs:
+      - 行业地图
+      - TAM/SAM/SOM 分析
+      - 竞争对手矩阵
+      - 护城河与脆弱点
+
+  - id: management
+    name: 管理层
+    objective: 评估管理层可信度、执行力和资本配置能力
+    skills:
+      - management-deep-dive
+    required_outputs:
+      - 管理层评分卡
+      - 资本配置记录
+      - 激励一致性判断
+
+  - id: valuation
+    name: 估值
+    objective: 建立多方法、多情景的估值判断
+    skills:
+      - dcf-valuation
+      - stock-valuation
+      - company-valuation
+    required_outputs:
+      - DCF 摘要
+      - 可比公司估值
+      - 历史倍数分析
+      - 反向 DCF
+      - bear/base/bull 情景
+
+  - id: investment_thesis
+    name: 投资论文
+    objective: 形成可证伪、可跟踪的投资结论
+    skills:
+      - investment-research
+      - investment-team
+      - investment-checklist
+    required_outputs:
+      - 投资论文
+      - 核心假设
+      - 风险与催化剂
+      - 退出条件
+
+  - id: challenge_validation
+    name: 反方与校验
+    objective: 主动挑战结论并验证数据、逻辑与估值
+    skills:
+      - bear-case
+      - result-validator
+    required_outputs:
+      - 反方观点
+      - 校验报告
+      - 返工事项
+    gates:
+      - 高优先级数据错误归零
+      - 每个买入理由都有反证指标
+
+  - id: reporting
+    name: 报告
+    objective: 生成可审阅、可复盘的研究报告
+    skills:
+      - investment-memo-craft
+      - full-report
+      - report-generator
+      - chart-master
+    required_outputs:
+      - 投资备忘录
+      - 完整报告
+      - 图表包
+
+  - id: tracking
+    name: 跟踪
+    objective: 财报、新闻、催化剂和 thesis drift 的持续跟踪
+    skills:
+      - earnings-preview
+      - earnings-review
+      - earnings-recap
+      - earnings-call-analysis
+      - estimate-analysis
+      - catalyst-calendar
+      - news-pulse
+      - thesis-tracker
+      - thesis-drift
+    required_outputs:
+      - 财报预览
+      - 财报复盘
+      - 催化剂日历
+      - thesis tracker
+
+  - id: market_portfolio
+    name: 市场与组合
+    objective: 将单家公司结论放入市场和组合语境
+    skills:
+      - technical-analysis
+      - sector-analysis
+      - economics-analysis
+      - options-analysis
+      - stock-liquidity
+      - portfolio-review
+    required_outputs:
+      - 市场环境摘要
+      - 交易与流动性风险
+      - 组合适配建议
+
+workflow_gates:
+  before_memo:
+    - data_cross_validation
+    - business_fundamentals
+    - industry_competition
+    - valuation
+  before_final_report:
+    - challenge_validation
+    - investment_thesis
+  after_publication:
+    - tracking
+    - market_portfolio
+
+cadence:
+  data_refresh: 每个财报季更新
+  thesis_review: 每月至少一次
+  catalyst_review: 每周一次
+  full_refresh: 每半年或重大事件后
