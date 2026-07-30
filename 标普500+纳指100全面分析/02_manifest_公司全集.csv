@@ -1,7 +1,7 @@
 序号,公司,Ticker,指数归属,GICS行业,GICS子行业,ICB行业,ICB子行业,CIK,研究目录,状态
-1,Amazon,AMZN,"Nasdaq-100, S&P 500",Consumer Discretionary,Broadline Retail,Consumer Discretionary,Catalog/Specialty Distribution,0001018724,Amazon_AMZN,研究中
-2,Apple Inc.,AAPL,"Nasdaq-100, S&P 500",Information Technology,"Technology Hardware, Storage & Peripherals",Technology,Computer Hardware,0000320193,Apple_Inc_AAPL,研究中
-3,Microsoft,MSFT,"Nasdaq-100, S&P 500",Information Technology,Systems Software,Technology,Software,0000789019,Microsoft_MSFT,研究中
+1,Amazon,AMZN,"Nasdaq-100, S&P 500",Consumer Discretionary,Broadline Retail,Consumer Discretionary,Catalog/Specialty Distribution,0001018724,Amazon_AMZN,已完成
+2,Apple Inc.,AAPL,"Nasdaq-100, S&P 500",Information Technology,"Technology Hardware, Storage & Peripherals",Technology,Computer Hardware,0000320193,Apple_AAPL,需补写
+3,Microsoft,MSFT,"Nasdaq-100, S&P 500",Information Technology,Systems Software,Technology,Software,0000789019,Microsoft_MSFT,已完成
 4,AT&T,T,S&P 500,Communication Services,Integrated Telecommunication Services,,,0000732717,AT_T_T,未开始
 5,Alphabet Inc.,GOOG/GOOGL,"Nasdaq-100, S&P 500",Communication Services,Interactive Media & Services,Technology,Software,0001652044,Alphabet_Inc_GOOG_GOOGL,未开始
 6,Charter Communications,CHTR,S&P 500,Communication Services,Cable & Satellite,,,0001091667,Charter_Communications_CHTR,未开始
