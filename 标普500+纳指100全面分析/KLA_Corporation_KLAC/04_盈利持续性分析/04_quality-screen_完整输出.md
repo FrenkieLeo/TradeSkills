@@ -1,0 +1,61 @@
+# KLA Corporation (KLAC) - 04 quality-screen 完整输出
+
+
+## 数据质量与准出说明
+- 研究日期：2026-07-30
+- 数据截止日：2026-07-30
+- 信息丰富度评级：A级。KLAC 是成熟美股上市公司，SEC/IR/第三方财务数据充足；主要风险不是资料少，而是市场共识过强和拆股后数据源口径不同步。
+- 重大数据警告：KLA 于 2026-06-11 盘后完成 10-for-1 拆股；公司 FY2026 业绩稿说明每股和股数信息已追溯调整。部分行情源在 2026-07-30 对价格、市值、EPS 的拆股调整不同步，导致市值可出现约 10 倍误差。估值结论必须保留此限制。
+- 市值复核：用 FY2026 GAAP 净利润 $4.831B / split-adjusted diluted EPS $3.66 推算稀释股数约 1.320B；以 $170.19 价格测算市值约 $224.6B。finance 工具返回 $22.4B，与该测算差异约 10 倍，判定为拆股口径问题，不采用。
+- 关键数据交叉验证：FY2026 收入 $13.579B、净利润 $4.831B、CFO $4.143B、FCF $3.767B 来自 KLA FY2026 业绩稿，并与 StockAnalysis FY2026 表一致或在四舍五入范围内一致。FY2025 FCF $3.747B 与 Macrotrends $3.747B 一致。
+- 缺口：FY2026 10-K 尚未在可检索来源中出现；FY2026 附注、客户集中度、应收/存货详细表仍以 FY2025 10-K 为最近完整附注基础，标注为“数据不足”。
+
+
+## 汇总表
+| 公司 | ①ROE | ②FCF | ③利息覆盖 | ④毛利率 | ⑤OCF/NI | ⑥净利率 | ⑦稀释 | 结果 |
+|---|---|---|---|---|---|---|---|---|
+| KLA Corporation | 数据不足 | ✅ 5年累计 FCF > $16B | ✅ 利息费用约收入 2%，覆盖强 | ✅ 61.3% | ⚠️ FY2026 0.86；5年需复核 | ✅ 35.6% | 数据不足 | **边界通过** |
+
+## 逐项检验
+1. 10 年平均 ROE：数据不足。回购会压低权益、抬高 ROE，需用平均投入资本和 ROIC 补充。
+2. 5 年累计自由现金流：通过。FY2022-FY2026 FCF 分别约 $3.005B、$3.328B、$3.031B、$3.747B、$3.767B，累计约 $16.878B。
+3. 利息覆盖倍数：通过。FY2025 interest expense $302M，FY2025 operating income $4.775B，覆盖约 15.8x。
+4. 长期毛利率：通过。近五年约 60% 左右，显著高于 15%。
+5. OCF/NI：边界。FY2026 0.86，FY2025 约 1.00，需 5 年均值与营运资本明细复核。
+6. 长期净利率：通过。FY2026 35.6%，近五年多数高于 28%。
+7. 5 年股本膨胀：数据不足。公司长期回购大概率未稀释，但 10-for-1 拆股导致股数序列需复权，不能直接比较。
+
+## 排除项
+未触发明确排除项。
+
+## 豁免逻辑
+无需使用战略投入期/主动低利润率/高周转薄利豁免。边界项来自数据不足和现金流转换率需复核，不是商业模式缺陷。
+
+## 边界争议
+- CFO/NI 低于 1：可能是营运资本随收入增长变化，也可能是现金转换轻微转弱。必须等 FY2026 10-K 更新。
+- 股本变化：拆股导致第三方数据错位，需复权后观察实际回购净效应。
+
+## 筛选结论
+KLA 通过去劣筛选，但不能因为“通过”就 Buy。去劣只能排除坏公司，不能解决当前估值偏贵问题。
+
+
+
+## 主要来源
+| 类型 | 来源 | 日期/期间 | URL | 口径 |
+|---|---|---:|---|---|
+| 公司原始披露 | KLA FY2026 Q4/FY results press release | 2026-07-28 / FY2026 | https://ir.kla.com/news-events/press-releases/detail/518/kla-corporation-reports-fiscal-2026-fourth-quarter-and-full | Primary |
+| 公司原始披露 | KLA FY2025 Form 10-K | 2025-08-08 / FY2025 | https://ir.kla.com/sec-filings/all-sec-filings/content/0000319201-25-000024/klac-20250630.htm | Primary |
+| SEC | 8-K stock split and dividend | 2026-05-07 | https://www.sec.gov/Archives/edgar/data/319201/000119312526212093/d116682d8k.htm | Primary |
+| 公司 IR | Management team | accessed 2026-07-30 | https://ir.kla.com/company-information/management-team | Primary/company |
+| 第三方交叉验证 | StockAnalysis KLAC financials | updated 2026-07-28 | https://stockanalysis.com/stocks/klac/financials/ | Secondary |
+| 第三方交叉验证 | Macrotrends KLAC free cash flow | accessed 2026-07-30 | https://www.macrotrends.net/stocks/charts/KLAC/kla/free-cash-flow | Secondary |
+| 行业 | SEMI AI Investment, Equipment & Materials Market Outlook | 2025-09 | https://www.semi.org/sites/semi.org/files/2025-09/5%20Clark%20Tseng_Building%20the%20Future-AI%20Investment%2C%20Equipment%20%26%20Materials%20Market%20Outlook.pdf | Secondary/industry |
+| 新闻/市场 | Reuters: KLA AI-linked demand Q4 guidance | 2026-04-29 | https://www.reuters.com/business/kla-corp-forecasts-strong-quarterly-revenue-ai-linked-demand-2026-04-29/ | Secondary/news |
+| 新闻/市场 | Barron's: post-earnings selloff and expectations | 2026-07-29 | https://www.barrons.com/articles/kla-earnings-stock-price-565a7230 | Secondary/news |
+
+
+## 数据不足清单
+- FY2026 Form 10-K 尚未作为完整 SEC 10-K 附注读取；FY2026 应收账款、存货、商誉、无形资产、SBC、剩余履约义务、地区/客户集中度的最终附注需用 FY2026 10-K 更新。
+- 当前市值和历史估值分位受拆股后数据源同步影响，需在 Nasdaq/公司最新 10-K 股本披露完全同步后复核。
+- 本研究不是个性化投资建议；未纳入用户税务居住地、账户类型、持仓成本、组合约束和风险承受能力。
+
