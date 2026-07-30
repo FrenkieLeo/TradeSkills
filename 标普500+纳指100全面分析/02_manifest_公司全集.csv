@@ -64,7 +64,7 @@
 63,Starbucks,SBUX,"Nasdaq-100, S&P 500",Consumer Discretionary,Restaurants,Consumer Discretionary,Restaurants,0000829224,Starbucks_SBUX,未开始
 64,TJX Companies,TJX,S&P 500,Consumer Discretionary,Apparel Retail,,,0000109198,TJX_Companies_TJX,未开始
 65,"Tapestry, Inc.",TPR,S&P 500,Consumer Discretionary,"Apparel, Accessories & Luxury Goods",,,0001116132,Tapestry_Inc_TPR,未开始
-66,"Tesla, Inc.",TSLA,"Nasdaq-100, S&P 500",Consumer Discretionary,Automobile Manufacturers,Consumer Discretionary,Automobiles & Parts,0001318605,Tesla_Inc_TSLA,未开始
+66,"Tesla, Inc.",TSLA,"Nasdaq-100, S&P 500",Consumer Discretionary,Automobile Manufacturers,Consumer Discretionary,Automobiles & Parts,0001318605,Tesla_Inc_TSLA,已完成
 67,Tractor Supply,TSCO,S&P 500,Consumer Discretionary,Other Specialty Retail,,,0000916365,Tractor_Supply_TSCO,未开始
 68,Ulta Beauty,ULTA,S&P 500,Consumer Discretionary,Other Specialty Retail,,,0001403568,Ulta_Beauty_ULTA,未开始
 69,"Williams-Sonoma, Inc.",WSM,S&P 500,Consumer Discretionary,Homefurnishing Retail,,,0000719955,Williams_Sonoma_Inc_WSM,未开始
@@ -82,7 +82,7 @@
 81,Coca-Cola Europacific Partners,CCEP,Nasdaq-100,,,Consumer Staples,Soft Drinks,,Coca_Cola_Europacific_Partners_CCEP,未开始
 82,Colgate-Palmolive,CL,S&P 500,Consumer Staples,Household Products,,,0000021665,Colgate_Palmolive_CL,未开始
 83,Constellation Brands,STZ,S&P 500,Consumer Staples,Distillers & Vintners,,,0000016918,Constellation_Brands_STZ,未开始
-84,Costco,COST,"Nasdaq-100, S&P 500",Consumer Staples,Consumer Staples Merchandise Retail,Consumer Discretionary,Department/Specialty Retail Stores,0000909832,Costco_COST,未开始
+84,Costco,COST,"Nasdaq-100, S&P 500",Consumer Staples,Consumer Staples Merchandise Retail,Consumer Discretionary,Department/Specialty Retail Stores,0000909832,Costco_COST,已完成
 85,Dollar General,DG,S&P 500,Consumer Staples,Consumer Staples Merchandise Retail,,,0000029534,Dollar_General_DG,未开始
 86,Dollar Tree,DLTR,S&P 500,Consumer Staples,Consumer Staples Merchandise Retail,,,0000935703,Dollar_Tree_DLTR,未开始
 87,Estée Lauder Companies (The),EL,S&P 500,Consumer Staples,Personal Care Products,,,0001001250,Est_e_Lauder_Companies_The_EL,未开始
@@ -358,7 +358,7 @@
 357,Applied Materials,AMAT,"Nasdaq-100, S&P 500",Information Technology,Semiconductor Materials & Equipment,Technology,Semiconductors,0000006951,Applied_Materials_AMAT,未开始
 358,Arista Networks,ANET,S&P 500,Information Technology,Communications Equipment,,,0001596532,Arista_Networks_ANET,未开始
 359,Autodesk,ADSK,"Nasdaq-100, S&P 500",Information Technology,Application Software,Technology,Software,0000769397,Autodesk_ADSK,未开始
-360,Broadcom,AVGO,"Nasdaq-100, S&P 500",Information Technology,Semiconductors,Technology,Semiconductors,0001730168,Broadcom_AVGO,未开始
+360,Broadcom,AVGO,"Nasdaq-100, S&P 500",Information Technology,Semiconductors,Technology,Semiconductors,0001730168,Broadcom_AVGO,已完成
 361,CDW Corporation,CDW,S&P 500,Information Technology,Technology Distributors,,,0001402057,CDW_Corporation_CDW,未开始
 362,Cadence Design Systems,CDNS,"Nasdaq-100, S&P 500",Information Technology,Application Software,Technology,Software,0000813672,Cadence_Design_Systems_CDNS,未开始
 363,Ciena,CIEN,S&P 500,Information Technology,Communications Equipment,,,0000936395,Ciena_CIEN,未开始
@@ -477,7 +477,7 @@
 476,Vici Properties,VICI,S&P 500,Real Estate,Hotel & Resort REITs,,,0001705696,Vici_Properties_VICI,未开始
 477,Welltower,WELL,S&P 500,Real Estate,Health Care REITs,,,0000766704,Welltower_WELL,未开始
 478,Weyerhaeuser,WY,S&P 500,Real Estate,Timber REITs,,,0000106535,Weyerhaeuser_WY,未开始
-479,ASML Holding,ASML,Nasdaq-100,,,Technology,Industrial Machinery,,ASML_Holding_ASML,未开始
+479,ASML Holding,ASML,Nasdaq-100,,,Technology,Industrial Machinery,,ASML_Holding_ASML,已完成
 480,Arm Holdings,ARM,Nasdaq-100,,,Technology,Semiconductors,,Arm_Holdings_ARM,未开始
 481,Astera Labs,ALAB,Nasdaq-100,,,Technology,Semiconductors,,Astera_Labs_ALAB,未开始
 482,CoreWeave,CRWV,Nasdaq-100,,,Technology,Computer Services,,CoreWeave_CRWV,未开始
