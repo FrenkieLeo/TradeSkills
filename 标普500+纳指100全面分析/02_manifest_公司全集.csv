@@ -1,16 +1,16 @@
 序号,公司,Ticker,指数归属,GICS行业,GICS子行业,ICB行业,ICB子行业,CIK,研究目录,状态
 1,Amazon,AMZN,"Nasdaq-100, S&P 500",Consumer Discretionary,Broadline Retail,Consumer Discretionary,Catalog/Specialty Distribution,0001018724,Amazon_AMZN,已完成
-2,Apple Inc.,AAPL,"Nasdaq-100, S&P 500",Information Technology,"Technology Hardware, Storage & Peripherals",Technology,Computer Hardware,0000320193,Apple_AAPL,需补写
+2,Apple Inc.,AAPL,"Nasdaq-100, S&P 500",Information Technology,"Technology Hardware, Storage & Peripherals",Technology,Computer Hardware,0000320193,Apple_AAPL,已完成
 3,Microsoft,MSFT,"Nasdaq-100, S&P 500",Information Technology,Systems Software,Technology,Software,0000789019,Microsoft_MSFT,已完成
 4,AT&T,T,S&P 500,Communication Services,Integrated Telecommunication Services,,,0000732717,AT_T_T,未开始
-5,Alphabet Inc.,GOOG/GOOGL,"Nasdaq-100, S&P 500",Communication Services,Interactive Media & Services,Technology,Software,0001652044,Alphabet_Inc_GOOG_GOOGL,未开始
+5,Alphabet Inc.,GOOG/GOOGL,"Nasdaq-100, S&P 500",Communication Services,Interactive Media & Services,Technology,Software,0001652044,Alphabet_Inc_GOOG_GOOGL,已完成
 6,Charter Communications,CHTR,S&P 500,Communication Services,Cable & Satellite,,,0001091667,Charter_Communications_CHTR,未开始
 7,Comcast,CMCSA,"Nasdaq-100, S&P 500",Communication Services,Cable & Satellite,Telecommunications,Cable & Other Pay Television Services,0001166691,Comcast_CMCSA,未开始
 8,EchoStar,ECHO,S&P 500,Communication Services,Wireless Telecommunication Services,,,0001415404,EchoStar_ECHO,未开始
 9,Electronic Arts,EA,"Nasdaq-100, S&P 500",Communication Services,Interactive Home Entertainment,Consumer Discretionary,Miscellaneous Amusement & Recreation Services,0000712515,Electronic_Arts_EA,未开始
 10,Fox Corporation,FOX/FOXA,S&P 500,Communication Services,Broadcasting,,,0001754301,Fox_Corporation_FOX_FOXA,未开始
 11,Live Nation Entertainment,LYV,S&P 500,Communication Services,Movies & Entertainment,,,0001335258,Live_Nation_Entertainment_LYV,未开始
-12,Meta Platforms,META,"Nasdaq-100, S&P 500",Communication Services,Interactive Media & Services,Technology,Software,0001326801,Meta_Platforms_META,未开始
+12,Meta Platforms,META,"Nasdaq-100, S&P 500",Communication Services,Interactive Media & Services,Technology,Software,0001326801,Meta_Platforms_META,已完成
 13,Netflix,NFLX,S&P 500,Communication Services,Movies & Entertainment,,,0001065280,Netflix_NFLX,未开始
 14,News Corp,NWS/NWSA,S&P 500,Communication Services,Publishing,,,0001564708,News_Corp_NWS_NWSA,未开始
 15,Omnicom Group,OMC,S&P 500,Communication Services,Advertising,,,0000029989,Omnicom_Group_OMC,未开始
@@ -394,7 +394,7 @@
 393,Motorola Solutions,MSI,S&P 500,Information Technology,Communications Equipment,,,0000068505,Motorola_Solutions_MSI,未开始
 394,NXP Semiconductors,NXPI,"Nasdaq-100, S&P 500",Information Technology,Semiconductors,Technology,Semiconductors,0001413447,NXP_Semiconductors_NXPI,未开始
 395,NetApp,NTAP,S&P 500,Information Technology,"Technology Hardware, Storage & Peripherals",,,0001002047,NetApp_NTAP,未开始
-396,Nvidia,NVDA,"Nasdaq-100, S&P 500",Information Technology,Semiconductors,Technology,Semiconductors,0001045810,Nvidia_NVDA,未开始
+396,Nvidia,NVDA,"Nasdaq-100, S&P 500",Information Technology,Semiconductors,Technology,Semiconductors,0001045810,Nvidia_NVDA,已完成
 397,ON Semiconductor,ON,S&P 500,Information Technology,Semiconductors,,,0001097864,ON_Semiconductor_ON,未开始
 398,Oracle Corporation,ORCL,S&P 500,Information Technology,Application Software,,,0001341439,Oracle_Corporation_ORCL,未开始
 399,PTC Inc.,PTC,S&P 500,Information Technology,Application Software,,,0000857005,PTC_Inc_PTC,未开始
