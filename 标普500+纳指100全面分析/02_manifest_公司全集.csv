@@ -19,11 +19,11 @@
 18,TKO Group Holdings,TKO,S&P 500,Communication Services,Movies & Entertainment,,,0001973266,TKO_Group_Holdings_TKO,已完成
 19,Take-Two Interactive,TTWO,"Nasdaq-100, S&P 500",Communication Services,Interactive Home Entertainment,Consumer Discretionary,Miscellaneous Amusement & Recreation Services,0000946581,Take_Two_Interactive_TTWO,已完成
 20,Trade Desk (The),TTD,S&P 500,Communication Services,Advertising,,,0001671933,Trade_Desk_The_TTD,已完成
-21,Verizon,VZ,S&P 500,Communication Services,Integrated Telecommunication Services,,,0000732712,Verizon_VZ,未开始
-22,Walt Disney Company (The),DIS,S&P 500,Communication Services,Movies & Entertainment,,,0001744489,Walt_Disney_Company_The_DIS,未开始
-23,Warner Bros. Discovery,WBD,"Nasdaq-100, S&P 500",Communication Services,Broadcasting,Consumer Discretionary,Entertainment,0001437107,Warner_Bros_Discovery_WBD,未开始
-24,Airbnb,ABNB,"Nasdaq-100, S&P 500",Consumer Discretionary,"Hotels, Resorts & Cruise Lines",Consumer Discretionary,Diversified Commercial Services,0001559720,Airbnb_ABNB,未开始
-25,Aptiv,APTV,S&P 500,Consumer Discretionary,Automotive Parts & Equipment,,,0001521332,Aptiv_APTV,未开始
+21,Verizon,VZ,S&P 500,Communication Services,Integrated Telecommunication Services,,,0000732712,Verizon_VZ,已完成
+22,Walt Disney Company (The),DIS,S&P 500,Communication Services,Movies & Entertainment,,,0001744489,Walt_Disney_Company_The_DIS,已完成
+23,Warner Bros. Discovery,WBD,"Nasdaq-100, S&P 500",Communication Services,Broadcasting,Consumer Discretionary,Entertainment,0001437107,Warner_Bros_Discovery_WBD,已完成
+24,Airbnb,ABNB,"Nasdaq-100, S&P 500",Consumer Discretionary,"Hotels, Resorts & Cruise Lines",Consumer Discretionary,Diversified Commercial Services,0001559720,Airbnb_ABNB,已完成
+25,Aptiv,APTV,S&P 500,Consumer Discretionary,Automotive Parts & Equipment,,,0001521332,Aptiv_APTV,已完成
 26,AutoZone,AZO,S&P 500,Consumer Discretionary,Automotive Retail,,,0000866787,AutoZone_AZO,未开始
 27,Best Buy,BBY,S&P 500,Consumer Discretionary,Computer & Electronics Retail,,,0000764478,Best_Buy_BBY,未开始
 28,Booking Holdings,BKNG,"Nasdaq-100, S&P 500",Consumer Discretionary,"Hotels, Resorts & Cruise Lines",Consumer Discretionary,Transportation Services,0001075531,Booking_Holdings_BKNG,未开始
@@ -518,4 +518,3 @@
 517,Vistra Corp.,VST,S&P 500,Utilities,Electric Utilities,,,0001692819,Vistra_Corp_VST,未开始
 518,WEC Energy Group,WEC,S&P 500,Utilities,Electric Utilities,,,0000783325,WEC_Energy_Group_WEC,未开始
 519,Xcel Energy,XEL,"Nasdaq-100, S&P 500",Utilities,Multi-Utilities,Utilities,Conventional Electricity,0000072903,Xcel_Energy_XEL,未开始
-
