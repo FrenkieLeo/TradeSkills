@@ -1,3 +1,6 @@
+Warning: truncated output (original token count: 15600)
+Total output lines: 520
+
 序号,公司,Ticker,指数归属,GICS行业,GICS子行业,ICB行业,ICB子行业,CIK,研究目录,状态
 1,Amazon,AMZN,"Nasdaq-100, S&P 500",Consumer Discretionary,Broadline Retail,Consumer Discretionary,Catalog/Specialty Distribution,0001018724,Amazon_AMZN,已完成
 2,Apple Inc.,AAPL,"Nasdaq-100, S&P 500",Information Technology,"Technology Hardware, Storage & Peripherals",Technology,Computer Hardware,0000320193,Apple_AAPL,已完成
@@ -39,11 +42,11 @@
 38,Ford Motor Company,F,S&P 500,Consumer Discretionary,Automobile Manufacturers,,,0000037996,Ford_Motor_Company_F,已完成
 39,Garmin,GRMN,S&P 500,Consumer Discretionary,Consumer Electronics,,,0001121788,Garmin_GRMN,已完成
 40,General Motors,GM,S&P 500,Consumer Discretionary,Automobile Manufacturers,,,0001467858,General_Motors_GM,已完成
-41,Genuine Parts Company,GPC,S&P 500,Consumer Discretionary,Distributors,,,0000040987,Genuine_Parts_Company_GPC,未开始
-42,Hasbro,HAS,S&P 500,Consumer Discretionary,Leisure Products,,,0000046080,Hasbro_HAS,未开始
-43,Hilton Worldwide,HLT,S&P 500,Consumer Discretionary,"Hotels, Resorts & Cruise Lines",,,0001585689,Hilton_Worldwide_HLT,未开始
-44,Home Depot (The),HD,S&P 500,Consumer Discretionary,Home Improvement Retail,,,0000354950,Home_Depot_The_HD,未开始
-45,Las Vegas Sands,LVS,S&P 500,Consumer Discretionary,Casinos & Gaming,,,0001300514,Las_Vegas_Sands_LVS,未开始
+41,Genuine Parts Company,GPC,S&P 500,Consumer Discretionary,Distributors,,,0000040987,Genuine_Parts_Company_GPC,已完成
+42,Hasbro,HAS,S&P 500,Consumer Discretionary,Leisure Products,,,0000046080,Hasbro_HAS,已完成
+43,Hilton Worldwide,HLT,S&P 500,Consumer Discretionary,"Hotels, Resorts & Cruise Lines",,,0001585689,Hilton_Worldwide_HLT,已完成
+44,Home Depot (The),HD,S&P 500,Consumer Discretionary,Home Improvement Retail,,,0000354950,Home_Depot_The_HD,已完成
+45,Las Vegas Sands,LVS,S&P 500,Consumer Discretionary,Casinos & Gaming,,,0001300514,Las_Vegas_Sands_LVS,已完成
 46,Lennar,LEN,S&P 500,Consumer Discretionary,Homebuilding,,,0000920760,Lennar_LEN,未开始
 47,Lowe's,LOW,S&P 500,Consumer Discretionary,Home Improvement Retail,,,0000060667,Lowe_s_LOW,未开始
 48,Lululemon Athletica,LULU,S&P 500,Consumer Discretionary,"Apparel, Accessories & Luxury Goods",,,0001397187,Lululemon_Athletica_LULU,未开始
@@ -159,199 +162,7 @@
 158,Everest Group,EG,S&P 500,Financials,Reinsurance,,,0001095073,Everest_Group_EG,未开始
 159,FactSet,FDS,S&P 500,Financials,Financial Exchanges & Data,,,0001013237,FactSet_FDS,未开始
 160,Fidelity National Information Services,FIS,S&P 500,Financials,Transaction & Payment Processing Services,,,0001136893,Fidelity_National_Information_Services_FIS,未开始
-161,Fifth Third Bancorp,FITB,S&P 500,Financials,Regional Banks,,,0000035527,Fifth_Third_Bancorp_FITB,未开始
-162,Fiserv,FISV,S&P 500,Financials,Transaction & Payment Processing Services,,,0000798354,Fiserv_FISV,未开始
-163,Franklin Resources,BEN,S&P 500,Financials,Asset Management & Custody Banks,,,0000038777,Franklin_Resources_BEN,未开始
-164,Global Payments,GPN,S&P 500,Financials,Transaction & Payment Processing Services,,,0001123360,Global_Payments_GPN,未开始
-165,Globe Life,GL,S&P 500,Financials,Life & Health Insurance,,,0000320335,Globe_Life_GL,未开始
-166,Goldman Sachs,GS,S&P 500,Financials,Investment Banking & Brokerage,,,0000886982,Goldman_Sachs_GS,未开始
-167,Hartford (The),HIG,S&P 500,Financials,Property & Casualty Insurance,,,0000874766,Hartford_The_HIG,未开始
-168,Huntington Bancshares,HBAN,S&P 500,Financials,Regional Banks,,,0000049196,Huntington_Bancshares_HBAN,未开始
-169,Interactive Brokers,IBKR,S&P 500,Financials,Investment Banking & Brokerage,,,0001381197,Interactive_Brokers_IBKR,未开始
-170,Intercontinental Exchange,ICE,S&P 500,Financials,Financial Exchanges & Data,,,0001571949,Intercontinental_Exchange_ICE,未开始
-171,Invesco,IVZ,S&P 500,Financials,Asset Management & Custody Banks,,,0000914208,Invesco_IVZ,未开始
-172,JPMorgan Chase,JPM,S&P 500,Financials,Diversified Banks,,,0000019617,JPMorgan_Chase_JPM,未开始
-173,Jack Henry & Associates,JKHY,S&P 500,Financials,Transaction & Payment Processing Services,,,0000779152,Jack_Henry_Associates_JKHY,未开始
-174,KKR & Co.,KKR,S&P 500,Financials,Asset Management & Custody Banks,,,0001404912,KKR_Co_KKR,未开始
-175,KeyCorp,KEY,S&P 500,Financials,Regional Banks,,,0000091576,KeyCorp_KEY,未开始
-176,Loews Corporation,L,S&P 500,Financials,Multi-line Insurance,,,0000060086,Loews_Corporation_L,未开始
-177,M&T Bank,MTB,S&P 500,Financials,Regional Banks,,,0000036270,M_T_Bank_MTB,未开始
-178,MSCI Inc.,MSCI,S&P 500,Financials,Financial Exchanges & Data,,,0001408198,MSCI_Inc_MSCI,未开始
-179,Marsh McLennan,MRSH,S&P 500,Financials,Insurance Brokers,,,0000062709,Marsh_McLennan_MRSH,未开始
-180,Mastercard,MA,S&P 500,Financials,Transaction & Payment Processing Services,,,0001141391,Mastercard_MA,未开始
-181,MetLife,MET,S&P 500,Financials,Life & Health Insurance,,,0001099219,MetLife_MET,未开始
-182,Moody's Corporation,MCO,S&P 500,Financials,Financial Exchanges & Data,,,0001059556,Moody_s_Corporation_MCO,未开始
-183,Morgan Stanley,MS,S&P 500,Financials,Investment Banking & Brokerage,,,0000895421,Morgan_Stanley_MS,未开始
-184,"Nasdaq, Inc.",NDAQ,S&P 500,Financials,Financial Exchanges & Data,,,0001120193,Nasdaq_Inc_NDAQ,未开始
-185,Northern Trust,NTRS,S&P 500,Financials,Asset Management & Custody Banks,,,0000073124,Northern_Trust_NTRS,未开始
-186,PNC Financial Services,PNC,S&P 500,Financials,Diversified Banks,,,0000713676,PNC_Financial_Services_PNC,未开始
-187,PayPal,PYPL,"Nasdaq-100, S&P 500",Financials,Transaction & Payment Processing Services,Industrials,Diversified Commercial Services,0001633917,PayPal_PYPL,未开始
-188,Principal Financial Group,PFG,S&P 500,Financials,Life & Health Insurance,,,0001126328,Principal_Financial_Group_PFG,未开始
-189,Progressive Corporation,PGR,S&P 500,Financials,Property & Casualty Insurance,,,0000080661,Progressive_Corporation_PGR,未开始
-190,Prudential Financial,PRU,S&P 500,Financials,Life & Health Insurance,,,0001137774,Prudential_Financial_PRU,未开始
-191,Raymond James Financial,RJF,S&P 500,Financials,Investment Banking & Brokerage,,,0000720005,Raymond_James_Financial_RJF,未开始
-192,Regions Financial Corporation,RF,S&P 500,Financials,Regional Banks,,,0001281761,Regions_Financial_Corporation_RF,未开始
-193,Robinhood Markets,HOOD,S&P 500,Financials,Investment Banking & Brokerage,,,0001783879,Robinhood_Markets_HOOD,未开始
-194,S&P Global,SPGI,S&P 500,Financials,Financial Exchanges & Data,,,0000064040,S_P_Global_SPGI,未开始
-195,State Street Corporation,STT,S&P 500,Financials,Asset Management & Custody Banks,,,0000093751,State_Street_Corporation_STT,未开始
-196,Synchrony Financial,SYF,S&P 500,Financials,Consumer Finance,,,0001601712,Synchrony_Financial_SYF,未开始
-197,T. Rowe Price,TROW,S&P 500,Financials,Asset Management & Custody Banks,,,0001113169,T_Rowe_Price_TROW,未开始
-198,Travelers Companies (The),TRV,S&P 500,Financials,Property & Casualty Insurance,,,0000086312,Travelers_Companies_The_TRV,未开始
-199,Truist Financial,TFC,S&P 500,Financials,Diversified Banks,,,0000092230,Truist_Financial_TFC,未开始
-200,U.S. Bancorp,USB,S&P 500,Financials,Diversified Banks,,,0000036104,U_S_Bancorp_USB,未开始
-201,Visa Inc.,V,S&P 500,Financials,Transaction & Payment Processing Services,,,0001403161,Visa_Inc_V,未开始
-202,W. R. Berkley Corporation,WRB,S&P 500,Financials,Property & Casualty Insurance,,,0000011544,W_R_Berkley_Corporation_WRB,未开始
-203,Wells Fargo,WFC,S&P 500,Financials,Diversified Banks,,,0000072971,Wells_Fargo_WFC,未开始
-204,Willis Towers Watson,WTW,S&P 500,Financials,Insurance Brokers,,,0001140536,Willis_Towers_Watson_WTW,未开始
-205,AbbVie,ABBV,S&P 500,Health Care,Biotechnology,,,0001551152,AbbVie_ABBV,未开始
-206,Abbott Laboratories,ABT,S&P 500,Health Care,Health Care Equipment,,,0000001800,Abbott_Laboratories_ABT,未开始
-207,Agilent Technologies,A,S&P 500,Health Care,Life Sciences Tools & Services,,,0001090872,Agilent_Technologies_A,未开始
-208,Align Technology,ALGN,S&P 500,Health Care,Health Care Supplies,,,0001097149,Align_Technology_ALGN,未开始
-209,Alnylam Pharmaceuticals,ALNY,Nasdaq-100,,,Health Care,Biotechnology,,Alnylam_Pharmaceuticals_ALNY,未开始
-210,Amgen,AMGN,"Nasdaq-100, S&P 500",Health Care,Biotechnology,Health Care,Biotechnology,0000318154,Amgen_AMGN,未开始
-211,Baxter International,BAX,S&P 500,Health Care,Health Care Equipment,,,0000010456,Baxter_International_BAX,未开始
-212,Becton Dickinson,BDX,S&P 500,Health Care,Health Care Equipment,,,0000010795,Becton_Dickinson_BDX,未开始
-213,Bio-Techne,TECH,S&P 500,Health Care,Life Sciences Tools & Services,,,0000842023,Bio_Techne_TECH,未开始
-214,Biogen,BIIB,S&P 500,Health Care,Biotechnology,,,0000875045,Biogen_BIIB,未开始
-215,Boston Scientific,BSX,S&P 500,Health Care,Health Care Equipment,,,0000885725,Boston_Scientific_BSX,未开始
-216,Bristol Myers Squibb,BMY,S&P 500,Health Care,Pharmaceuticals,,,0000014272,Bristol_Myers_Squibb_BMY,未开始
-217,CVS Health,CVS,S&P 500,Health Care,Health Care Services,,,0000064803,CVS_Health_CVS,未开始
-218,Cardinal Health,CAH,S&P 500,Health Care,Health Care Distributors,,,0000721371,Cardinal_Health_CAH,未开始
-219,Cencora,COR,S&P 500,Health Care,Health Care Distributors,,,0001140859,Cencora_COR,未开始
-220,Centene Corporation,CNC,S&P 500,Health Care,Managed Health Care,,,0001071739,Centene_Corporation_CNC,未开始
-221,Charles River Laboratories,CRL,S&P 500,Health Care,Life Sciences Tools & Services,,,0001100682,Charles_River_Laboratories_CRL,未开始
-222,Cigna,CI,S&P 500,Health Care,Health Care Services,,,0001739940,Cigna_CI,未开始
-223,Cooper Companies (The),COO,S&P 500,Health Care,Health Care Supplies,,,0000711404,Cooper_Companies_The_COO,未开始
-224,DaVita,DVA,S&P 500,Health Care,Health Care Services,,,0000927066,DaVita_DVA,未开始
-225,Danaher Corporation,DHR,S&P 500,Health Care,Life Sciences Tools & Services,,,0000313616,Danaher_Corporation_DHR,未开始
-226,DexCom,DXCM,Nasdaq-100,,,Health Care,Medical/Dental Instruments,,DexCom_DXCM,未开始
-227,Dexcom,DXCM,S&P 500,Health Care,Health Care Equipment,,,0001093557,Dexcom_DXCM,未开始
-228,Edwards Lifesciences,EW,S&P 500,Health Care,Health Care Equipment,,,0001099800,Edwards_Lifesciences_EW,未开始
-229,Elevance Health,ELV,S&P 500,Health Care,Managed Health Care,,,0001156039,Elevance_Health_ELV,未开始
-230,GE HealthCare,GEHC,"Nasdaq-100, S&P 500",Health Care,Health Care Equipment,Health Care,Medical Electronics,0001932393,GE_HealthCare_GEHC,未开始
-231,Gilead Sciences,GILD,"Nasdaq-100, S&P 500",Health Care,Biotechnology,Health Care,Biotechnology,0000882095,Gilead_Sciences_GILD,未开始
-232,HCA Healthcare,HCA,S&P 500,Health Care,Health Care Facilities,,,0000860730,HCA_Healthcare_HCA,未开始
-233,Henry Schein,HSIC,S&P 500,Health Care,Health Care Distributors,,,0001000228,Henry_Schein_HSIC,未开始
-234,Humana,HUM,S&P 500,Health Care,Managed Health Care,,,0000049071,Humana_HUM,未开始
-235,IQVIA,IQV,S&P 500,Health Care,Life Sciences Tools & Services,,,0001478242,IQVIA_IQV,未开始
-236,Idexx Laboratories,IDXX,"Nasdaq-100, S&P 500",Health Care,Health Care Equipment,Health Care,Biotechnology,0000874716,Idexx_Laboratories_IDXX,未开始
-237,Incyte,INCY,S&P 500,Health Care,Biotechnology,,,0000879169,Incyte_INCY,未开始
-238,Insulet Corporation,PODD,S&P 500,Health Care,Health Care Equipment,,,0001145197,Insulet_Corporation_PODD,未开始
-239,Intuitive Surgical,ISRG,"Nasdaq-100, S&P 500",Health Care,Health Care Equipment,Health Care,Industrial Specialties,0001035267,Intuitive_Surgical_ISRG,未开始
-240,Johnson & Johnson,JNJ,S&P 500,Health Care,Pharmaceuticals,,,0000200406,Johnson_Johnson_JNJ,未开始
-241,Labcorp,LH,S&P 500,Health Care,Health Care Services,,,0000920148,Labcorp_LH,未开始
-242,Lilly (Eli),LLY,S&P 500,Health Care,Pharmaceuticals,,,0000059478,Lilly_Eli_LLY,未开始
-243,McKesson Corporation,MCK,S&P 500,Health Care,Health Care Distributors,,,0000927653,McKesson_Corporation_MCK,未开始
-244,Medtronic,MDT,S&P 500,Health Care,Health Care Equipment,,,0001613103,Medtronic_MDT,未开始
-245,Merck & Co.,MRK,S&P 500,Health Care,Pharmaceuticals,,,0000310158,Merck_Co_MRK,未开始
-246,Mettler Toledo,MTD,S&P 500,Health Care,Life Sciences Tools & Services,,,0001037646,Mettler_Toledo_MTD,未开始
-247,Moderna,MRNA,S&P 500,Health Care,Biotechnology,,,0001682852,Moderna_MRNA,未开始
-248,Pfizer,PFE,S&P 500,Health Care,Pharmaceuticals,,,0000078003,Pfizer_PFE,未开始
-249,Quest Diagnostics,DGX,S&P 500,Health Care,Health Care Services,,,0001022079,Quest_Diagnostics_DGX,未开始
-250,Regeneron Pharmaceuticals,REGN,"Nasdaq-100, S&P 500",Health Care,Biotechnology,Health Care,Biotechnology,0000872589,Regeneron_Pharmaceuticals_REGN,未开始
-251,ResMed,RMD,S&P 500,Health Care,Health Care Equipment,,,0000943819,ResMed_RMD,未开始
-252,Revvity,RVTY,S&P 500,Health Care,Health Care Equipment,,,0000031791,Revvity_RVTY,未开始
-253,Solventum,SOLV,S&P 500,Health Care,Health Care Technology,,,0001964738,Solventum_SOLV,未开始
-254,Steris,STE,S&P 500,Health Care,Health Care Equipment,,,0001757898,Steris_STE,未开始
-255,Stryker Corporation,SYK,S&P 500,Health Care,Health Care Equipment,,,0000310764,Stryker_Corporation_SYK,未开始
-256,Thermo Fisher Scientific,TMO,S&P 500,Health Care,Life Sciences Tools & Services,,,0000097745,Thermo_Fisher_Scientific_TMO,未开始
-257,UnitedHealth Group,UNH,S&P 500,Health Care,Managed Health Care,,,0000731766,UnitedHealth_Group_UNH,未开始
-258,Universal Health Services,UHS,S&P 500,Health Care,Health Care Facilities,,,0000352915,Universal_Health_Services_UHS,未开始
-259,Veeva Systems,VEEV,S&P 500,Health Care,Health Care Technology,,,0001393052,Veeva_Systems_VEEV,未开始
-260,Vertex Pharmaceuticals,VRTX,"Nasdaq-100, S&P 500",Health Care,Biotechnology,Health Care,Biotechnology,0000875320,Vertex_Pharmaceuticals_VRTX,未开始
-261,Viatris,VTRS,S&P 500,Health Care,Pharmaceuticals,,,0001792044,Viatris_VTRS,未开始
-262,Waters Corporation,WAT,S&P 500,Health Care,Life Sciences Tools & Services,,,0001000697,Waters_Corporation_WAT,未开始
-263,West Pharmaceutical Services,WST,S&P 500,Health Care,Health Care Supplies,,,0000105770,West_Pharmaceutical_Services_WST,未开始
-264,Zimmer Biomet,ZBH,S&P 500,Health Care,Health Care Equipment,,,0001136869,Zimmer_Biomet_ZBH,未开始
-265,Zoetis,ZTS,S&P 500,Health Care,Pharmaceuticals,,,0001555280,Zoetis_ZTS,未开始
-266,3M,MMM,S&P 500,Industrials,Industrial Conglomerates,,,0000066740,3M_MMM,未开始
-267,A. O. Smith,AOS,S&P 500,Industrials,Building Products,,,0000091142,A_O_Smith_AOS,未开始
-268,Allegion,ALLE,S&P 500,Industrials,Building Products,,,0001579241,Allegion_ALLE,未开始
-269,Ametek,AME,S&P 500,Industrials,Electrical Components & Equipment,,,0001037868,Ametek_AME,未开始
-270,Automatic Data Processing,ADP,"Nasdaq-100, S&P 500",Industrials,Human Resource & Employment Services,Industrials,Diversified Commercial Services,0000008670,Automatic_Data_Processing_ADP,未开始
-271,Axon Enterprise,AXON,"Nasdaq-100, S&P 500",Industrials,Aerospace & Defense,Industrials,Ordnance & Accessories,0001069183,Axon_Enterprise_AXON,未开始
-272,Boeing,BA,S&P 500,Industrials,Aerospace & Defense,,,0000012927,Boeing_BA,未开始
-273,Broadridge Financial Solutions,BR,S&P 500,Industrials,Data Processing & Outsourced Services,,,0001383312,Broadridge_Financial_Solutions_BR,未开始
-274,Builders FirstSource,BLDR,S&P 500,Industrials,Building Products,,,0001316835,Builders_FirstSource_BLDR,未开始
-275,C.H. Robinson,CHRW,S&P 500,Industrials,Air Freight & Logistics,,,0001043277,C_H_Robinson_CHRW,未开始
-276,CSX Corporation,CSX,"Nasdaq-100, S&P 500",Industrials,Rail Transportation,Industrials,Railroads,0000277948,CSX_Corporation_CSX,未开始
-277,Carrier Global,CARR,S&P 500,Industrials,Building Products,,,0001783180,Carrier_Global_CARR,未开始
-278,Caterpillar Inc.,CAT,S&P 500,Industrials,Construction Machinery & Heavy Transportation Equipment,,,0000018230,Caterpillar_Inc_CAT,未开始
-279,Cintas,CTAS,"Nasdaq-100, S&P 500",Industrials,Diversified Support Services,Industrials,Garments & Clothing,0000723254,Cintas_CTAS,未开始
-280,Comfort Systems USA,FIX,S&P 500,Industrials,Construction & Engineering,,,0001035983,Comfort_Systems_USA_FIX,未开始
-281,Copart,CPRT,"Nasdaq-100, S&P 500",Industrials,Diversified Support Services,Consumer Discretionary,Retail,0000900075,Copart_CPRT,未开始
-282,Cummins,CMI,S&P 500,Industrials,Construction Machinery & Heavy Transportation Equipment,,,0000026172,Cummins_CMI,未开始
-283,Deere & Company,DE,S&P 500,Industrials,Agricultural & Farm Machinery,,,0000315189,Deere_Company_DE,未开始
-284,Delta Air Lines,DAL,S&P 500,Industrials,Passenger Airlines,,,0000027904,Delta_Air_Lines_DAL,未开始
-285,Dover Corporation,DOV,S&P 500,Industrials,Industrial Machinery & Supplies & Components,,,0000029905,Dover_Corporation_DOV,未开始
-286,Eaton Corporation,ETN,S&P 500,Industrials,Electrical Components & Equipment,,,0001551182,Eaton_Corporation_ETN,未开始
-287,Emcor,EME,S&P 500,Industrials,Construction & Engineering,,,0000105634,Emcor_EME,未开始
-288,Emerson Electric,EMR,S&P 500,Industrials,Electrical Components & Equipment,,,0000032604,Emerson_Electric_EMR,未开始
-289,Equifax,EFX,S&P 500,Industrials,Research & Consulting Services,,,0000033185,Equifax_EFX,未开始
-290,Expeditors International,EXPD,S&P 500,Industrials,Air Freight & Logistics,,,0000746515,Expeditors_International_EXPD,未开始
-291,Fastenal,FAST,"Nasdaq-100, S&P 500",Industrials,Trading Companies & Distributors,Industrials,Construction & Materials,0000815556,Fastenal_FAST,未开始
-292,FedEx,FDX,S&P 500,Industrials,Air Freight & Logistics,,,0001048911,FedEx_FDX,未开始
-293,FedEx Freight,FDXF,S&P 500,Industrials,Cargo Ground Transportation,,,0002082247,FedEx_Freight_FDXF,未开始
-294,Ferrovial,FER,Nasdaq-100,,,Industrials,"Military, Government, Technical",,Ferrovial_FER,未开始
-295,Fortive,FTV,S&P 500,Industrials,Industrial Machinery & Supplies & Components,,,0001659166,Fortive_FTV,未开始
-296,GE Aerospace,GE,S&P 500,Industrials,Aerospace & Defense,,,0000040545,GE_Aerospace_GE,未开始
-297,GE Vernova,GEV,S&P 500,Industrials,Heavy Electrical Equipment,,,0001996810,GE_Vernova_GEV,未开始
-298,Generac,GNRC,S&P 500,Industrials,Heavy Electrical Equipment,,,0001474735,Generac_GNRC,未开始
-299,General Dynamics,GD,S&P 500,Industrials,Aerospace & Defense,,,0000040533,General_Dynamics_GD,未开始
-300,Honeywell Aerospace,HONA,"Nasdaq-100, S&P 500",Industrials,Aerospace & Defense,Industrials,Aerospace,0002089271,Honeywell_Aerospace_HONA,未开始
-301,Honeywell Technologies,HON,"Nasdaq-100, S&P 500",Industrials,Industrial Conglomerates,Industrials,Diversified Industrials,0000773840,Honeywell_Technologies_HON,未开始
-302,Howmet Aerospace,HWM,S&P 500,Industrials,Aerospace & Defense,,,0000004281,Howmet_Aerospace_HWM,未开始
-303,Hubbell Incorporated,HUBB,S&P 500,Industrials,Industrial Machinery & Supplies & Components,,,0000048898,Hubbell_Incorporated_HUBB,未开始
-304,Huntington Ingalls Industries,HII,S&P 500,Industrials,Aerospace & Defense,,,0001501585,Huntington_Ingalls_Industries_HII,未开始
-305,IDEX Corporation,IEX,S&P 500,Industrials,Industrial Machinery & Supplies & Components,,,0000832101,IDEX_Corporation_IEX,未开始
-306,Illinois Tool Works,ITW,S&P 500,Industrials,Industrial Machinery & Supplies & Components,,,0000049826,Illinois_Tool_Works_ITW,未开始
-307,Ingersoll Rand,IR,S&P 500,Industrials,Industrial Machinery & Supplies & Components,,,0001699150,Ingersoll_Rand_IR,未开始
-308,J.B. Hunt,JBHT,S&P 500,Industrials,Cargo Ground Transportation,,,0000728535,J_B_Hunt_JBHT,未开始
-309,Jacobs Solutions,J,S&P 500,Industrials,Construction & Engineering,,,0000052988,Jacobs_Solutions_J,未开始
-310,Johnson Controls,JCI,S&P 500,Industrials,Building Products,,,0000833444,Johnson_Controls_JCI,未开始
-311,L3Harris,LHX,S&P 500,Industrials,Aerospace & Defense,,,0000202058,L3Harris_LHX,未开始
-312,Leidos,LDOS,S&P 500,Industrials,Diversified Support Services,,,0001336920,Leidos_LDOS,未开始
-313,Lennox International,LII,S&P 500,Industrials,Building Products,,,0001069202,Lennox_International_LII,未开始
-314,Lockheed Martin,LMT,S&P 500,Industrials,Aerospace & Defense,,,0000936468,Lockheed_Martin_LMT,未开始
-315,Masco,MAS,S&P 500,Industrials,Building Products,,,0000062996,Masco_MAS,未开始
-316,Nordson Corporation,NDSN,S&P 500,Industrials,Industrial Machinery & Supplies & Components,,,0000072331,Nordson_Corporation_NDSN,未开始
-317,Norfolk Southern,NSC,S&P 500,Industrials,Rail Transportation,,,0000702165,Norfolk_Southern_NSC,未开始
-318,Northrop Grumman,NOC,S&P 500,Industrials,Aerospace & Defense,,,0001133421,Northrop_Grumman_NOC,未开始
-319,Old Dominion,ODFL,S&P 500,Industrials,Cargo Ground Transportation,,,0000878927,Old_Dominion_ODFL,未开始
-320,Old Dominion Freight Line,ODFL,Nasdaq-100,,,Industrials,Trucking,,Old_Dominion_Freight_Line_ODFL,未开始
-321,Otis Worldwide,OTIS,S&P 500,Industrials,Industrial Machinery & Supplies & Components,,,0001781335,Otis_Worldwide_OTIS,未开始
-322,Paccar,PCAR,"Nasdaq-100, S&P 500",Industrials,Construction Machinery & Heavy Transportation Equipment,Consumer Discretionary,Motor Vehicles,0000075362,Paccar_PCAR,未开始
-323,Parker Hannifin,PH,S&P 500,Industrials,Industrial Machinery & Supplies & Components,,,0000076334,Parker_Hannifin_PH,未开始
-324,Paychex,PAYX,"Nasdaq-100, S&P 500",Industrials,Human Resource & Employment Services,Industrials,Diversified Commercial Services,0000723531,Paychex_PAYX,未开始
-325,Pentair,PNR,S&P 500,Industrials,Industrial Machinery & Supplies & Components,,,0000077360,Pentair_PNR,未开始
-326,Quanta Services,PWR,S&P 500,Industrials,Construction & Engineering,,,0001050915,Quanta_Services_PWR,未开始
-327,RTX Corporation,RTX,S&P 500,Industrials,Aerospace & Defense,,,0000101829,RTX_Corporation_RTX,未开始
-328,Republic Services,RSG,S&P 500,Industrials,Environmental & Facilities Services,,,0001060391,Republic_Services_RSG,未开始
-329,Rocket Lab,RKLB,Nasdaq-100,,,Industrials,Aerospace,,Rocket_Lab_RKLB,未开始
-330,Rockwell Automation,ROK,S&P 500,Industrials,Electrical Components & Equipment,,,0001024478,Rockwell_Automation_ROK,未开始
-331,"Rollins, Inc.",ROL,S&P 500,Industrials,Environmental & Facilities Services,,,0000084839,Rollins_Inc_ROL,未开始
-332,Snap-on,SNA,S&P 500,Industrials,Industrial Machinery & Supplies & Components,,,0000091440,Snap_on_SNA,未开始
-333,Southwest Airlines,LUV,S&P 500,Industrials,Passenger Airlines,,,0000092380,Southwest_Airlines_LUV,未开始
-334,Stanley Black & Decker,SWK,S&P 500,Industrials,Industrial Machinery & Supplies & Components,,,0000093556,Stanley_Black_Decker_SWK,未开始
-335,Textron,TXT,S&P 500,Industrials,Aerospace & Defense,,,0000217346,Textron_TXT,未开始
-336,Trane Technologies,TT,S&P 500,Industrials,Building Products,,,0001466258,Trane_Technologies_TT,未开始
-337,TransDigm Group,TDG,S&P 500,Industrials,Aerospace & Defense,,,0001260221,TransDigm_Group_TDG,未开始
-338,Uber,UBER,S&P 500,Industrials,Passenger Ground Transportation,,,0001543151,Uber_UBER,未开始
-339,Union Pacific Corporation,UNP,S&P 500,Industrials,Rail Transportation,,,0000100885,Union_Pacific_Corporation_UNP,未开始
-340,United Airlines Holdings,UAL,S&P 500,Industrials,Passenger Airlines,,,0000100517,United_Airlines_Holdings_UAL,未开始
-341,United Parcel Service,UPS,S&P 500,Industrials,Air Freight & Logistics,,,0001090727,United_Parcel_Service_UPS,未开始
-342,United Rentals,URI,S&P 500,Industrials,Trading Companies & Distributors,,,0001067701,United_Rentals_URI,未开始
-343,Veralto,VLTO,S&P 500,Industrials,Environmental & Facilities Services,,,0001967680,Veralto_VLTO,未开始
-344,Verisk Analytics,VRSK,S&P 500,Industrials,Research & Consulting Services,,,0001442145,Verisk_Analytics_VRSK,未开始
-345,Vertiv,VRT,S&P 500,Industrials,Electrical Components & Equipment,,,0001674101,Vertiv_VRT,未开始
-346,W. W. Grainger,GWW,S&P 500,Industrials,Industrial Machinery & Supplies & Components,,,0000277135,W_W_Grainger_GWW,未开始
-347,Wabtec,WAB,S&P 500,Industrials,Construction Machinery & Heavy Transportation Equipment,,,0000943452,Wabtec_WAB,未开始
-348,Waste Management,WM,S&P 500,Industrials,Environmental & Facilities Services,,,0000823768,Waste_Management_WM,未开始
-349,Xylem Inc.,XYL,S&P 500,Industrials,Industrial Machinery & Supplies & Components,,,0001524472,Xylem_Inc_XYL,未开始
-350,Accenture,ACN,S&P 500,Information Technology,IT Consulting & Other Services,,,0001467373,Accenture_ACN,未开始
-351,Adobe Inc.,ADBE,"Nasdaq-100, S&P 500",Information Technology,Application Software,Technology,Software,0000796343,Adobe_Inc_ADBE,未开始
-352,Advanced Micro Devices,AMD,"Nasdaq-100, S&P 500",Information Technology,Semiconductors,Technology,Semiconductors,0000002488,Advanced_Micro_Devices_AMD,已完成
-353,Akamai Technologies,AKAM,S&P 500,Information Technology,Internet Services & Infrastructure,,,0001086222,Akamai_Technologies_AKAM,未开始
+161,Fifth Third Bancorp,FITB,S…5600 tokens truncated…astructure,,,0001086222,Akamai_Technologies_AKAM,未开始
 354,Amphenol,APH,S&P 500,Information Technology,Electronic Components,,,0000820313,Amphenol_APH,未开始
 355,Analog Devices,ADI,"Nasdaq-100, S&P 500",Information Technology,Semiconductors,Technology,Semiconductors,0000006281,Analog_Devices_ADI,未开始
 356,AppLovin,APP,"Nasdaq-100, S&P 500",Information Technology,Application Software,Technology,Software,0001751008,AppLovin_APP,未开始
